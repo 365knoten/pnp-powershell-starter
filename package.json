@@ -1,0 +1,11 @@
+{
+  "name": "powershell-starter",
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:shell": "start powershell -NoProfile -ExecutionPolicy Unrestricted -NoExit -command \".\\ProjectShell.ps1 -instance dev\"",
+    "prod:shell": "start powershell -NoProfile -ExecutionPolicy Unrestricted -NoExit -command \".\\ProjectShell.ps1 -instance prod\"",
+  },
+  "dependencies": {}
+}

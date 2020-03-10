@@ -1,0 +1,7 @@
+ps_modules
+node_modules/
+/packages/*/node_modules/
+.vscode
+temp
+data
+package-lock.json
